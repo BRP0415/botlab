@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRP BotLab FAQ</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 40px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+    h1, h2 {
+      color: #00d8ff;
+      margin-bottom: 20px;
+    }
+    .faq {
+      margin-bottom: 25px;
+    }
+    .faq h3 {
+      cursor: pointer;
+      background-color: #1e1e24;
+      padding: 15px;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .faq h3:hover {
+      background-color: #2d2d33;
+    }
+    .faq p, .faq ul, .faq div {
+      display: none;
+      background-color: #2b2b31;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 8px;
+      animation: expand 0.3s ease-in-out;
+    }
+    .features, .about, .roles, .premium, .contact {
+      background: #18181b;
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .purple {
+      color: #c084fc;
+      font-weight: bold;
+    }
+    a {
+      color: #00d8ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes expand {
+      from { max-height: 0; opacity: 0; }
+      to { max-height: 1000px; opacity: 1; }
+    }
+    .emoji {
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+    ul li::before {
+      content: '•';
+      color: #00d8ff;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .btn {
+        padding: 15px 30px;
+        margin: 0.5rem;
+        background: #1e1e2f;  /* Dark background to match theme */
+        color: #00d8ff;        /* Bright accent color */
+        font-weight: bold;
+        border: 2px solid #00d8ff; /* Border to match the accent color */
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .btn:hover {
+        background: #00d8ff;  /* Hover background to match accent color */
+        color: #1e1e2f;       /* Text color changes to match the dark background */
+        border-color: #1e1e2f; /* Hover border color to match background */
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="about">
+      <h1>About BRP BotLab</h1>
+      <p>BRP BotLab is a hub for Discord bot enthusiasts, developers, and server owners looking to innovate their communities. We offer a full-service ecosystem: from development support and bot customization to deployment strategies and community engagement tools.</p>
+    </div>
+    <div class="about">
+    <h1>📚 BRP BotLab FAQ</h1>
+
+    <div class="faq">
+      <h3><span class="emoji">❓</span>What is BRP BotLab?</h3>
+      <p>BRP BotLab is a community dedicated to building and improving Discord bots. Whether you're looking for a custom bot, need support, or want to collaborate with developers, you've come to the right place!</p>
+    </div>
+    <div class="faq">
+      <h3><span class="emoji">🛠️</span>How do I request a custom bot for my server?</h3>
+      <p>Head to the <strong>#bot-requests</strong> channel or use the <code>/request</code> command. Provide detailed info like what features you want, your server's needs, and any inspiration or visuals. Our devs will take it from there!</p>
+    </div>
+    <div class="faq">
+      <h3><span class="emoji">🐞</span>How can I get help if a bot isn’t working properly?</h3>
+      <p>If you're running into issues, visit the <strong>#support</strong> channel. Describe the issue clearly (include screenshots if possible). We aim to respond within 24 hours!</p>
+    </div>
+
+    <div class="faq">
+      <h3><span class="emoji">🎭</span>What are the different roles in this server?</h3>
+ <p> We have a range of roles, including Bot Developers, Moderators, Executives, <span class="purple">Premium Members</span>—and of course, our valued Members like you!</p>
+    </div>
+
+    <div class="faq">
+      <h3><span class="emoji">💎</span>How can I become a Premium Member?</h3>
+      <p>Support us by boosting the server to get the <span class="purple">Premium Member</span> role. This unlocks perks like priority support, access to private channels, exclusive commands, and more!</p>
+    </div>
+
+    </div>
+
+    <div class="features">
+      <h1>⚙️ Features</h1>
+      <p>Here’s what BRP Botlab bots can do:</p>
+      <ul>
+        <li>📌 Custom commands and automations</li>
+        <li>🕐 Timed events and reminders</li>
+        <li>🛠️ Advanced moderation & logging tools</li>
+        <li>📬 Modmail systems for private reports</li>
+        <li>📊 Server statistics and data tracking</li>
+        <li>🎉 Polls, giveaways, and engagement tools</li>
+        <li>🧠 ChatGPT-powered AI conversations</li>
+        <li>🎂 Birthday systems and celebration bots</li>
+        <li>🪙 Economy, XP leveling, games, and more</li>
+        <li>⚠️ Discord AutoMod integration</li>
+        <li>🎭 Reaction roles, temp VCs, and emoji tools</li>
+        <li>🎨 Anything you want custom made we will try our best to make!</li>
+      </ul>
+      <p><em>Disclaimer: You need your own API keys for some integrations. We don’t provide them for you.</em></p>
+    </div>
+
+    <div class="premium">
+      <h1>💎Premium Member Perks💎</h1>
+        <div class="perk">
+            <h3>1️⃣ Priority Bot Development</h3>
+            <p>🚀 Move your bot requests to the front of the queue, ensuring quicker development.</p>
+        </div>
+
+        <div class="perk">
+            <h3>2️⃣ Faster Support</h3>
+            <p>⚡️ Get priority assistance from our dedicated Bot Developers & Moderators for faster resolutions.</p>
+        </div>
+
+        <div class="perk">
+            <h3>3️⃣ Premium-Only Chat</h3>
+            <p>💬 Enjoy access to a private chat room where only premium members can communicate and share ideas.</p>
+        </div>
+
+        <div class="perk">
+            <h3>4️⃣ Premium Badge</h3>
+            <p>🌟 Showcase your support with a special role and exclusive name color that highlights your premium membership.</p>
+        </div>
+
+        <div class="perk">
+            <h3>5️⃣ Access to /say Command</h3>
+            <p>💬 Unlock the exclusive /say command, allowing you and only you to make your bot say whatever you'd like.</p>
+        </div>
+    </div>
+
+
+    <div class="contact">
+      <h2>🔗 Join Today!</h2>
+      <a href="https://discord.gg/F7M83n7SNM" target="_blank">
+          <button class="btn">Join BRP BotLab</button>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq h3').forEach(faq => {
+      faq.addEventListener('click', () => {
+        const content = faq.nextElementSibling;
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+        } else {
+          document.querySelectorAll('.faq p, .faq ul, .faq div').forEach(p => p.style.display = 'none');
+          content.style.display = 'block';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
